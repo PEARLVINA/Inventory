@@ -1,0 +1,74 @@
+/* navigation bar design*/
+.navbar{
+  color: black;
+}
+
+.my-navbar {
+ background: black;
+}
+
+.card-title {
+  color: #EAF2F8;
+  text-align: center;
+}
+
+.card-text {
+  color: #C0392B;
+}
+
+.navbar-header{
+text-align: left;
+}
+
+.navbar-brand{
+text-align:left;
+color:#E38082  ;
+font-family: pristina;
+font-size:30px;
+}
+
+
+
+/* Style the sidebar - fixed full height */
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+
+/* Style sidebar links */
+.sidebar a {
+  padding: 8px 10px 6px 16px;
+  text-decoration: none;
+  font-size: 23px;
+  color: white;
+  display: block;
+}
+
+/* Style links on mouse-over */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Style the main content */
+.main {
+  margin-right: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+/* *TUP-Manila */
+p{
+  color: white;
+  text-align: center;
+  font-family: arial;
+  font-size: 12px;
+  margin: auto;
+  padding-bottom: 5px;
+
+}
