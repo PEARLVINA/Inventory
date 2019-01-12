@@ -81,7 +81,7 @@ if(isset($_POST['log'])){
         <form class="register" autocomplete="off">
         <div class="form-group" autocomplete="off" >
         <?php if(!empty($error)) { ?>
-          <p class="error"  style="color: #C0392B ;"><?php echo $error; ?></p>  
+          <p class="error"  style="background-color: #C0392B ;"><?php echo $error; ?></p>  
         <?php } ?>
     <div class="col-md-6-md-offset-3" id="register"> 
     </div>
